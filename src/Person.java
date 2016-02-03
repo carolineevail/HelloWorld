@@ -32,6 +32,10 @@ public class Person {
             name = newName;
         }
     }
+
+    public boolean isValidName(String name) {
+        return name.contains(" ");
+    }
     public int getAge(){
         return age;
     }
@@ -50,8 +54,6 @@ public class Person {
         isAlive = newIsAlive;
     }
 
-    public boolean isValidName(String name) {
-        return name.contains(" ");
-    }
+
 
 }

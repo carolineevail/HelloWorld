@@ -14,7 +14,12 @@ public class Pizza {
     }
 
     public void setType (String type) {
+        if (isBestType(type))
         this.type = type;
+    }
+
+    public boolean isBestType(String type) {
+        return type.contains("pepperoni");
     }
 
 
