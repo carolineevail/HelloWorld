@@ -16,8 +16,14 @@ public class BoardGame {
     }
 
     public void setName(String name) {
+        if(isGoodName(name))
         this.name = name;
     }
+
+    public boolean isGoodName(String name) {
+        return !name.isEmpty();
+    }
+
 
 
 
