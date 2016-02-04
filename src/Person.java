@@ -33,7 +33,7 @@ public class Person {
         }
     }
 
-    public boolean isValidName(String name) {
+    public static boolean isValidName(String name) {
         return name.contains(" ");
     }
     public int getAge(){
