@@ -16,7 +16,7 @@ public class Exercise01 {
 
         }
 
-        //add names; if you comment out the following for loop, it will pring blank letter arraylists.
+        //add names; if you comment out the following for loop, it will print blank letter arraylists.
         for (String name : names) {
             char firstLetter = name.charAt(0);
             nameMap.get(firstLetter).add(name);
