@@ -6,7 +6,7 @@ import java.util.*;
 public class Exercise04 {
     public static void main(String[] args) {
         String sentence = "To be or not to be, that is the question.";
-        // to be or not that is the question
+        // write code to print out string that does not have repeated words. ie. to be or not that is the question
         sentence = sentence.toLowerCase();
         sentence = sentence.replace(",", "").replace(".", "");
         String[] words = sentence.split(" ");
